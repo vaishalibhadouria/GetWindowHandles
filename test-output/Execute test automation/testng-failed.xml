@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Execute test automation]">
+  <test name="Any Name">
+    <classes>
+      <class name="TestNGPractice.Assertions"/>
+      <class name="TestNGPractice.ExceptionTimeOutTest"/>
+    </classes>
+  </test> <!-- Any Name -->
+</suite> <!-- Failed suite [Execute test automation] -->

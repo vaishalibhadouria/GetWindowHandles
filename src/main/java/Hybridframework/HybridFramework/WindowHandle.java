@@ -32,6 +32,7 @@ WebDriver driver;
 		String child = itr.next();
 		driver.switchTo().window(child);
 		System.out.println(driver.getTitle());
+		driver.manage().window().maximize();
 		}
 		driver.switchTo().window(parent);
 	}
@@ -41,5 +42,6 @@ WebDriver driver;
     	WindowHandle ob=new WindowHandle();
     	ob.handle();
     	System.out.println("completed");
+    	System.out.println("user.dir");
     }
 }

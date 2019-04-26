@@ -1,0 +1,15 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+
+<suite name="Execute test automation">
+<test name="Any Name">
+<classes>
+
+
+<class name="TestNGPractice.Assertions"></class>
+<class name="TestNGPractice.ExceptionTimeOutTest"></class>
+
+</classes>
+
+</test>
+
+</suite>
